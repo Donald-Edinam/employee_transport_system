@@ -1,7 +1,6 @@
 # employee_transport_system
 
 <p>
-    User
 This is a group project work that students will do throughout the semester. This is to 
 enable them do a practical exhibition of all the technologies learnt during the course of 
 study. Students have the right to choose any organization to use as a case study.
