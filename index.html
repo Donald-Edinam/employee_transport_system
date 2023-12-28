@@ -17,9 +17,9 @@
   <div class="main">
 
     <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Responsive offcanvas navbar</a>
+        <a class="navbar-brand" href="#">ShuttleSphere</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,34 +34,104 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Features</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
               </li>
+            `<li class="nav-item">
+              <a class="nav-link" href="#">Admin Panel</a>
+            </li>
             </ul>
-            <form class="d-flex mt-3 mt-lg-0" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-sm px-4 me-md-2">Sign Up</button>
+              <button type="button" class="btn btn-outline-secondary btn-sm px-4">Login</button>
             </form>
           </div>
         </div>
       </div>
     </nav>
     <!-- Hero Section-->
-
-    <!-- About Section -->
-
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/img/undraw_location_search_re_ttoj.svg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Move with ShuttleSphere!</h1>
+          <p class="lead">
+            Where seamless employee transportation management meets efficiency. Our platform is designed to revolutionize the way organizations handle pick-ups and drop-offs, ensuring a hassle-free experience for both administrators and employees.
+          </p>
+          <p class="lead">
+            Experience the future of employee transport management. Get started with ShuttleSphere today!
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Sign Up</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features section -->
+    <div class="container px-4 py-5" id="hanging-icons">
+      <h2 class="pb-2 border-bottom">Key Features</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+          </div>
+          <div>
+            <h5 class= "text-body-emphasis">Efficient Transport Coordination</h5>
+            <p>
+              Streamline your organization's transport services with our user-friendly and intuitive platform.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+          </div>
+          <div>
+            <h5 class="text-body-emphasis">Admin Control Panel</h5>
+            <p>
+              Empower administrators with a robust dashboard to manage drivers, vehicles, bookings, and time slots effortlessly.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+          </div>
+          <div>
+            <h5 class="text-body-emphasis">Employee Friendly Interface</h5>
+            <p>
+              Enhance the experience for employees with a dashboard that allows easy viewing of available time slots and convenient selections.
+            </p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="#" class="btn btn-primary">
+              Primary button
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- -->
 
   </div>
